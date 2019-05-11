@@ -6,7 +6,7 @@
 //  Copyright © 2017年 赵向禹. All rights reserved.
 //
 
-#import "ZXYGradientProgress.h"
+#import "CZFGradientProgress.h"
 
 #define ColorFromRGB(rgbValue) [UIColor \
 colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
@@ -15,7 +15,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 //宽度
 static const CGFloat layerWidth = 6;
 
-@interface ZXYGradientProgress ()
+@interface CZFGradientProgress ()
 {
     /** 原点 */
     CGPoint _origin;
@@ -36,7 +36,7 @@ static const CGFloat layerWidth = 6;
 
 @end
 
-@implementation ZXYGradientProgress
+@implementation CZFGradientProgress
 
 - (instancetype)initWithFrame:(CGRect)frame progress:(CGFloat)progress {
     if (self) {

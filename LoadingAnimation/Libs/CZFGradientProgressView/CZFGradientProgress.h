@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZXYGradientProgress : UIView
+@interface CZFGradientProgress : UIView
 
 /** 进度 */
 @property (nonatomic, assign) CGFloat progress;

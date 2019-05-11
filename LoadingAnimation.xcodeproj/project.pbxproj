@@ -14,7 +14,7 @@
 		675497F42286722B00702C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675497F22286722B00702C5E /* LaunchScreen.storyboard */; };
 		675497FF2286722B00702C5E /* LoadingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675497FE2286722B00702C5E /* LoadingAnimationTests.swift */; };
 		6754980A2286722B00702C5E /* LoadingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675498092286722B00702C5E /* LoadingAnimationUITests.swift */; };
-		6754981C2286790600702C5E /* ZXYGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6754981B2286790600702C5E /* ZXYGradientProgress.m */; };
+		6754981C2286790600702C5E /* CZFGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6754981B2286790600702C5E /* CZFGradientProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		675498092286722B00702C5E /* LoadingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationUITests.swift; sourceTree = "<group>"; };
 		6754980B2286722B00702C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		675498192286790400702C5E /* LoadingAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoadingAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
-		6754981A2286790600702C5E /* ZXYGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXYGradientProgress.h; sourceTree = "<group>"; };
-		6754981B2286790600702C5E /* ZXYGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXYGradientProgress.m; sourceTree = "<group>"; };
+		6754981A2286790600702C5E /* CZFGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFGradientProgress.h; sourceTree = "<group>"; };
+		6754981B2286790600702C5E /* CZFGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZFGradientProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		67549818228678E500702C5E /* CZFGradientProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				6754981A2286790600702C5E /* ZXYGradientProgress.h */,
-				6754981B2286790600702C5E /* ZXYGradientProgress.m */,
+				6754981A2286790600702C5E /* CZFGradientProgress.h */,
+				6754981B2286790600702C5E /* CZFGradientProgress.m */,
 			);
 			path = CZFGradientProgressView;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				675497EC2286722A00702C5E /* ViewController.swift in Sources */,
-				6754981C2286790600702C5E /* ZXYGradientProgress.m in Sources */,
+				6754981C2286790600702C5E /* CZFGradientProgress.m in Sources */,
 				675497EA2286722A00702C5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

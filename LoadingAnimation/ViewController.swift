@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     private var gradientLayer: CALayer?
     private var rightSymbolLayer: CAShapeLayer?
     private var rightCircleSymbolLayer: CAShapeLayer?
-    private var grandidentProgress: ZXYGradientProgress?
+    private var grandidentProgress: CZFGradientProgress?
 
     
     @IBOutlet weak var view1: UIView!
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         if grandidentProgress != nil {
             grandidentProgress?.removeFromSuperview()
         }
-        grandidentProgress = ZXYGradientProgress.init(frame: CGRect(x: (view3.bounds.size.width - progressWH) / 2, y: 0, width: progressWH, height: progressWH), progress: 0)
+        grandidentProgress = CZFGradientProgress.init(frame: CGRect(x: (view3.bounds.size.width - progressWH) / 2, y: 0, width: progressWH, height: progressWH), progress: 0)
         grandidentProgress?.bottomColor = UIColor.lightGray;
         view3.addSubview(grandidentProgress!)
         
